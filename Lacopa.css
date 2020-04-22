@@ -1,0 +1,419 @@
+*{margin: 0;
+padding: 0;}
+@font-face{
+
+            font-family: bombing; 
+        src: url(../la_copa_replica/fonts/Bombing.ttf); 
+      
+}
+
+@font-face { 
+    font-family: LemonYellowSun; 
+    src: url(../la_copa_replica/fonts/LemonYellowSun.otf);
+
+  } 
+
+
+
+ul{
+    list-style: none;
+    margin: 0px;
+      padding: 8px 8px;
+    }
+li{
+    float: left;
+}
+
+
+#menu ul li a{
+    color: rgb(59, 164, 224);
+    display: block;
+    padding:8px 8px;
+    margin-top: 0px;
+    font-size: 14px;
+
+}
+#contenedorprincipal{
+    width: 1263.33px;
+    height: 3090px;
+    margin-top: 70px;
+
+}
+    
+
+#preguntasruleta{
+width: 1263.33px;
+height: 647.33px;
+background-color:white
+
+}
+#ruleta{
+    width: 400px;
+    height: 180px;
+ float: right;
+ background-color: #810099;
+    
+    }
+#preguntas {
+    width: 839.22px;
+    height:647.33px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    float: left;
+    left: auto;
+    padding-top: auto;
+    padding-right: 0.75rem;
+    padding-bottom: 0px;
+    padding-left: 0.75rem;
+    box-sizing: inherit;
+
+}
+#comoseusa{
+    width: 490.81px;
+    height:130px;
+    font-family: LemonYellowSun;
+    font-size: 87px;
+    color: #ffc400;
+    text-align: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    cursor: pointer;
+}
+
+#escomoda{
+    width: 272px;
+    height:72px;
+    font-size: 48px;
+    font-family: LemonYellowSun;
+    color: #810099;
+    align-self: flex-start;
+    margin-top: 0px;
+    margin-right: 0.21em;
+    margin-bottom: 0px;
+    margin-left: 0.21em;
+    text-align: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    cursor: pointer;
+}
+
+#essegura{
+    width: 292px;
+    height:104px;
+    font-size: 70px;
+    font-family: LemonYellowSun;
+    color: #ff9400;
+    align-self: flex-end;
+    margin-top: 0px;
+    margin-right: 0.21em;
+    margin-bottom: 0px;
+    margin-left: 0.21em;
+    text-align: center;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    flex: 1 1 auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    cursor: pointer;
+}
+
+#comosaber{
+
+width: 482px;
+height: 55px;
+font-family: LemonYellowSun;
+    font-size: 37px;
+    color: #00cc17;
+    align-self: flex-start;
+    margin-top: 0px;
+    margin-right: 0.21em;
+    margin-bottom: 0px;
+    margin-left: 0.21em;
+    text-align: center;
+    transition: 0.5s;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    cursor: pointer;
+    box-sizing: inherit;
+}
+
+#quemarca{
+
+    font-size: 57px;
+    color: #3a33ff;
+    font-family: LemonYellowSun;
+    align-self: center;
+    margin-top: 0px;
+    margin-right: 0.21em;
+    margin-bottom: 0px;
+    margin-left: 0.21em;
+    text-align: center;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    cursor: pointer;
+    box-sizing: inherit;
+    display: block;
+}
+
+#comoselimpia{
+    width: 181.19px;
+    height: 44,67px;
+    font-size: 30px;
+    color: #3fb0ac;
+    font-family: LemonYellowSun;
+    align-self: center;
+    margin-top: 0px;
+    margin-right: 0.21em;
+    margin-bottom: 0px;
+    margin-left: 0.21em;
+    text-align: center;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    cursor: pointer;
+    box-sizing: inherit;
+    display: block;
+}
+
+#quehago{
+    width: 187.79px;
+    height: 60px;
+    font-size: 31px;
+    line-height: 30px;
+    color: #b56969;
+    font-family: "LemonYellowSun";
+    align-self: center;
+    margin-top: 0px;
+    margin-right: 0.21em;
+    margin-bottom: 0px;
+    margin-left: 0.21em;
+    text-align: center;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    cursor: pointer;
+    box-sizing: inherit;
+    display: block;
+}
+
+#noda{
+    width: 275px;
+    height: 58px;
+    font-size: 39px;
+    color: #dbe9d8;
+    font-family: "LemonYellowSun";
+    align-self: center;
+    margin-top: 0px;
+    margin-right: 0.21em;
+    margin-bottom: 0px;
+    margin-left: 0.21em;
+    text-align: center;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    cursor: pointer;
+    box-sizing: inherit;
+    display: block;
+}
+
+#puedonadar{
+    width: 512px;
+    height: 75px;
+    font-size: 37px;
+    color: #cdd422;
+    font-family: "LemonYellowSun";
+    align-self: center;
+    margin-top: 0px;
+    margin-right: 0.21em;
+    margin-bottom: 0px;
+    margin-left: 0.21em;
+    text-align: center;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    cursor: pointer;
+    box-sizing: inherit;
+    display: block;
+}
+
+#puedousarla{
+    font-size: 42px;
+    color: #a08b54;
+    font-family: "LemonYellowSun";
+    align-self: center;
+    margin-top: 0px;
+    margin-right: 0.21em;
+    margin-bottom: 0px;
+    margin-left: 0.21em;
+    text-align: center;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    cursor: pointer;
+    box-sizing: inherit;
+    display: block;
+
+}
+
+
+#puedousarlasi{
+    
+    font-size: 29px;
+    color: #677077;
+    font-family: "LemonYellowSun";
+    align-self: center;
+    margin-top: 0px;
+    margin-right: 0.21em;
+    margin-bottom: 0px;
+    margin-left: 0.21em;
+    text-align: center;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    cursor: pointer;
+    box-sizing: inherit;
+    display: block;
+
+}
+
+#puedousarlasi{
+    
+    font-size: 29px;
+    color: #677077;
+    font-family: "LemonYellowSun";
+    align-self: center;
+    margin-top: 0px;
+    margin-right: 0.21em;
+    margin-bottom: 0px;
+    margin-left: 0.21em;
+    text-align: center;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    cursor: pointer;
+    box-sizing: inherit;
+    display: block;
+
+}
+
+#estacertificada{
+    
+    font-size: 36px;
+    color: #9900ff;
+    font-family: "LemonYellowSun";
+    align-self: center;
+    margin-top: 0px;
+    margin-right: 0.21em;
+    margin-bottom: 0px;
+    margin-left: 0.21em;
+    text-align: center;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    cursor: pointer;
+    box-sizing: inherit;
+    display: block;
+}
+
+#asesorame{
+    
+    font-size: 90px;
+    color: #e05915;
+    font-family: "LemonYellowSun";
+    align-self: center;
+    margin-top: 0px;
+    margin-right: 0.21em;
+    margin-bottom: 0px;
+    margin-left: 0.21em;
+    text-align: center;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    cursor: pointer;
+    box-sizing: inherit;
+    display: block;
+}
+
+#sticker{
+    position: relative;
+    background-image: url(../la_copa_replica/img/sticker.jpg);
+    background-size: cover;
+    background-position-y: bottom;
+    height: 400px;
+    margin-top: 90px;
+    
+}
+    
+#contenedorpago{
+    background-color:transparent;
+    margin: 12px;
+    position: relative;
+    width: 630px;
+    height: 260px;
+}
+
+#mediosdepago{
+    background-color:transparent;
+    font-size: 75px;
+    font-family: "bombing";
+    color: white;
+    width: 586px;
+    height: 112px;
+    margin-top: 28px;
+    margin-left: 30px;
+}
+#iconosbancos{
+    background-color:yellow;
+    width: 460px;
+    height: 102px;
+    margin-left: 20px;
+}
+
